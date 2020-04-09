@@ -15,7 +15,9 @@ importScripts(
   "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js"
 );
 
-importScripts("/precache-manifest.364b3733a5519d0993dcd576cdf4a52b.js");
+importScripts(
+  "/shopping-mall/precache-manifest.409832c09812c7fff978b436b487cd48.js"
+);
 
 workbox.clientsClaim();
 
@@ -28,6 +30,6 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/index.html", {
+workbox.routing.registerNavigationRoute("/shopping-mall/index.html", {
   blacklist: [/^\/_/, /\/[^\/]+\.[^\/]+$/]
 });

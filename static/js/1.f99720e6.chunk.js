@@ -4480,7 +4480,8 @@
           u = n(109),
           s = n(0);
         function f(t) {
-          (e && Object({ NODE_ENV: "production", PUBLIC_URL: "" })) ||
+          (e &&
+            Object({ NODE_ENV: "production", PUBLIC_URL: "/shopping-mall" })) ||
             console.error("[@ant-design/icons-react]: " + t + ".");
         }
         function h(e) {
@@ -35898,4 +35899,4 @@
     }
   ]
 ]);
-//# sourceMappingURL=1.d1295c01.chunk.js.map
+//# sourceMappingURL=1.f99720e6.chunk.js.map
