@@ -1,0 +1,11 @@
+.home-slides {
+    max-width: 1200px;
+    margin: 0 auto;
+    .slide {
+        max-width: 1200px;
+      overflow: hidden;
+        >img {
+            width: 100%;
+        }
+    }
+}
