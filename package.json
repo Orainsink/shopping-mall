@@ -4,7 +4,7 @@
     "private": true,
     "dependencies": {
         "antd": "^3.11.0",
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "gsap": "^3.2.6",
         "prop-types": "^15.6.2",
         "react": "^16.13.1",
